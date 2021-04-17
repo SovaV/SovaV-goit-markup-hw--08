@@ -20,12 +20,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-@media (max-width: 480px) {
-  body {
-    min-width: 450px;
-  }
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -191,6 +185,8 @@ ol {
 }
 
 .burger-btn {
+  display: block;
+  margin-left: auto;
   background-color: transparent;
   border: none;
   padding: 0;
@@ -280,7 +276,6 @@ ol {
 
 .navigator__logo {
   display: block;
-  margin-right: 88px;
   padding-top: 24px;
   padding-bottom: 25px;
   color: #2196f3;
@@ -503,8 +498,15 @@ ol {
 }
 
 .client__container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 1200px) {
+  .client__container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .contact-model {
