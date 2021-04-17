@@ -4,19 +4,20 @@
 
   justify-content: space-evenly;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.17;
 
   letter-spacing: 0.03em;
+  flex-wrap: wrap;
 
   color: #757575;
 
-  display: flex;
-  flex-wrap: wrap;
-
-  @media (max-width: 1199px) {
-    font-size: 12px;
-    line-height: 1.4;
+  @media (min-width: 480px) {
+    display: flex;
+  }
+  @media (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.7;
   }
 }
 

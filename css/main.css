@@ -633,21 +633,26 @@ textarea {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #757575;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  color: #757575;
 }
 
-@media (max-width: 1199px) {
+@media (min-width: 480px) {
   .agreement-filed {
-    font-size: 12px;
-    line-height: 1.4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+  .agreement-filed {
+    font-size: 14px;
+    line-height: 1.7;
   }
 }
 
