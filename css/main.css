@@ -186,7 +186,6 @@ ol {
 
 .burger-btn {
   display: block;
-  margin-left: auto;
   background-color: transparent;
   border: none;
   padding: 0;
@@ -695,9 +694,6 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   overflow-y: scroll;
   padding: 48px 40px;
   background-color: white;
